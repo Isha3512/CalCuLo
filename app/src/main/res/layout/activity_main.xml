@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcl"
+    android:padding="@dimen/_12sdp"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/FLButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_4sdp">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp">
+
+                <Button
+                    android:id="@+id/btnAC"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="AC"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                tools:layout_editor_absoluteX="16dp">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                tools:layout_editor_absoluteX="0dp">
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+                tools:layout_editor_absoluteX="0dp">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+                tools:layout_editor_absoluteX="0dp">
+                <Button
+                    android:id="@+id/button17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+                <Button
+                    android:id="@+id/button19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp"/>
+
+                <Button
+                    android:id="@+id/button20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Button"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/_2sdp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_select"
+                    android:elevation="@dimen/_4sdp" />
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.38" />
+</androidx.constraintlayout.widget.ConstraintLayout>
